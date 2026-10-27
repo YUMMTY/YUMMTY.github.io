@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="SPYfCVV9Vag58Cak2fYk">
+    <mxGraphModel dx="706" dy="776" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gQLcnjHZaD_v1NmKpagf-2" edge="1" parent="1" source="gQLcnjHZaD_v1NmKpagf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.031;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" target="gQLcnjHZaD_v1NmKpagf-3">
+          <mxGeometry relative="1" x="0.2" as="geometry">
+            <mxPoint x="210" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gQLcnjHZaD_v1NmKpagf-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="寄存器 init/chirp&lt;div&gt;(软件写)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="90" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gQLcnjHZaD_v1NmKpagf-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="频率字 w&lt;div&gt;（18bit）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="220" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gQLcnjHZaD_v1NmKpagf-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="RF频率 f&lt;div&gt;（x7.6294kHz）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="310" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gQLcnjHZaD_v1NmKpagf-5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.031;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" x="0.2" as="geometry">
+            <mxPoint x="280" y="194.5" as="sourcePoint" />
+            <mxPoint x="307" y="194.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gQLcnjHZaD_v1NmKpagf-9" edge="1" parent="1" source="gQLcnjHZaD_v1NmKpagf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="gQLcnjHZaD_v1NmKpagf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gQLcnjHZaD_v1NmKpagf-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="AOD偏转角θ&lt;br&gt;&lt;div&gt;（∝f）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="430" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gQLcnjHZaD_v1NmKpagf-7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.031;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" target="gQLcnjHZaD_v1NmKpagf-6">
+          <mxGeometry relative="1" x="0.0492" as="geometry">
+            <mxPoint x="400" y="194.5" as="sourcePoint" />
+            <mxPoint x="427" y="194.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gQLcnjHZaD_v1NmKpagf-11" edge="1" parent="1" source="gQLcnjHZaD_v1NmKpagf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="gQLcnjHZaD_v1NmKpagf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gQLcnjHZaD_v1NmKpagf-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="光斑位置x&lt;div&gt;（x焦距F）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="550" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gQLcnjHZaD_v1NmKpagf-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="原子位置&lt;div&gt;（被光镊携带）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="670" y="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
